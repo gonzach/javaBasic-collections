@@ -77,3 +77,133 @@ You could run unit tests with the help of IntelliJ. But it is also possible to r
 
 If you just want to build your code without running test. Please use `./gradlew build -x test
 `
+Array Test
+
+Collection Test
+	- What is the knowledge point of the test? Where is the official document to the knowledge point?
+   	- Why the test failed at first?
+   	- Why you corrected the test that way?
+   	- Do you have further questions on this knowledge point?
+   	None
+
+Array Test 
+*PUSH 
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test it to understand on how to push value in another array. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I corrected it that way for it to store the value. 
+- Do you have further questions on this knowledge point?
+None
+
+*ensureCapacity
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how to create new size capacity of the array. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I clone storage array in a temp array because i will update the size of the storage. 
+After that since i clone storage in temp array, i can know put the value input in temp array to storage array then return it. 
+- Do you have further questions on this knowledge point?
+None
+
+*pop
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how to ppop one element in a array. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+To pop each elemnt in a array. 
+- Do you have further questions on this knowledge point?
+None
+
+CollectionTest
+*void should_go_through_an_iterator() {
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how to used .hasNext and .next method.
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I create new array to store the value of the Iterator. 
+- Do you have further questions on this knowledge point?
+None
+
+
+*SequenceIterator
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how to create array and get iterator. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I created it that way for it to have a list that will act as an holder. 
+- Do you have further questions on this knowledge point?
+None
+
+*SequenceIterator
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how append value in an array. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I created it that way to append value in array. 
+Then put the value of list in the Iterator. 
+- Do you have further questions on this knowledge point?
+None
+
+*hasNext
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how about .hasNext(). 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+To return true since it's checking if the actual and the expected is returning true.
+- Do you have further questions on this knowledge point?
+None
+
+*Next
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how about .hasNext(). 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+To return true since it's checking if the actual and the expected is returning true. 
+- Do you have further questions on this knowledge point?
+None
+
+*should_predict_linked_list_operation_result
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how about Array.aslist() 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+Since Array.aslist is use to defined fixed value. 
+I input just input the expected output.
+- Do you have further questions on this knowledge point?
+None
+
+*should_generate_distinct_sequence_on_the_fly
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how remove duplicate item in the array. 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+I create new array and use lamba to check it the list contain duplicated item. 
+then after filtering i return the value of filtered array in the iterator. 
+- Do you have further questions on this knowledge point?
+None
+
+*should_reflects_back_to_original_list_for_sub_range
+- What is the knowledge point of the test? Where is the official document to the knowledge point?
+The knowledge point of this test is to know how about Array.aslist() 
+- Why the test failed at first?
+Array is not equal with the expected value.
+- Why you corrected the test that way?
+Since Array.aslist is use to defined fixed value. 
+I input just input the expected output.
+- Do you have further questions on this knowledge point?
+None
+
+
+
+ 
